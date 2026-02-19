@@ -225,3 +225,61 @@ Correct Answer: C
 Explanation: AWS is responsible for security OF the cloud, including physical infrastructure.
 
 </details>
+
+Q.16 Which methods can be used by customers to interact with AWS Identity and Access Management (IAM)? (Choose TWO)
+
+- A. AWS CLI.
+- B. AWS Security Groups.
+- C. AWS SDKs.
+- D. AWS Network Access Control Lists.
+- E. AWS CodeCommit.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: A, C
+
+</details>
+
+Q.17 Which of the following are types of AWS Identity and Access Management (IAM) identities? (Choose TWO)
+
+- A. AWS Resource Groups.
+- B. IAM Policies.
+- C. IAM Roles.
+- D. IAM Users.
+- E. AWS Organizations.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: C, D
+
+</details>
+
+Q.18 Which IAM entity can best be used to grant temporary access to your AWS resources?
+
+- A. IAM Users.
+- B. Key Pair.
+- C. IAM Roles.
+- D. IAM Groups.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: C
+
+</details>
+
+Q.19 A company is seeking to better secure its AWS account from unauthorized access. Which of the below options can the customer use to achieve this goal?
+
+- A. Restrict any API call made through SDKs or CLI.
+- B. Create one IAM account for each department in the company (Development, QA, Production), and share it across all staff in that department.
+- C. Require Multi-Factor Authentication (MFA) for all IAM User access.
+- D. Set up two login passwords.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: C
+
+</details>
+
+
+
+
