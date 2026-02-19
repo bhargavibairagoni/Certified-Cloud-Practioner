@@ -1,9 +1,9 @@
 Q1. A company wants to use AWS for compute resources while keeping sensitive data in its own data center. Which deployment model should they use?
 
-A) Public Cloud
-B) Private Cloud
-C) Hybrid Cloud
-D) Community Cloud
+- A) Public Cloud
+- B) Private Cloud
+- C) Hybrid Cloud
+- D) Community Cloud
 
 <details> <summary><strong>▶ Show Answer</strong></summary>
 
