@@ -280,6 +280,121 @@ Correct answer: C
 
 </details>
 
+Q.20 Which of the following is a type of MFA device that customers can use to protect their AWS resources?
 
+- A. AWS CloudHSM.
+- B. U2F Security Key.
+- C. AWS Access Keys.
+- D. AWS Key Pair.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: B
+
+</details>
+
+Q.21 Availability Zones within a Region are connected over low-latency links. Which of the following is a benefit of these links?
+
+- A. Create private connection to your data center.
+- B. Achieve global high availability.
+- C. Automate the process of provisioning new compute resources.
+- D. Make synchronous replication of your data possible.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: B
+
+</details>
+
+Q.22 AWS allows users to manage their resources using a web based user interface. What is the name of this interface?
+
+- A. AWS CLI.
+- B. AWS API.
+- C. AWS SDK.
+- D. AWS Management Console.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: D
+
+</details>
+
+Q.23 An organization has a large number of technical employees who operate their AWS Cloud infrastructure. What does AWS provide to help organize them into teams and then assign the appropriate permissions for each team?
+
+- A. IAM roles.
+- B. IAM users.
+- C. IAM user groups.
+- D. AWS Organizations.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: C
+
+</details>
+
+Q.24 What does the "Principle of Least Privilege" refer to?
+
+- A. You should grant your users only the permissions they need when they need them and nothing more.
+- B. All IAM users should have at least the necessary permissions to access the core AWS services.
+- C. All trusted IAM users should have access to any AWS service in the respective AWS account.
+- D. IAM users should not be granted any permissions; to keep your account safe.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: A
+
+</details>
+
+Q.25 Which of the following does NOT belong to the AWS Cloud Computing models?
+
+- A. Platform as a Service (PaaS).
+- B. Infrastructure as a Service (IaaS).
+- C. Software as a Service (SaaS).
+- D. Networking as a Service (NaaS).
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: D
+
+</details>
+
+Q.26 Which of the following must an IAM user provide to interact with AWS services using the AWS Command Line Interface (AWS CLI)?
+
+- A. Access keys.
+- B. Secret token.
+- C. UserID.
+- D. User name and password.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: A
+
+</details>
+
+Q.27 Access keys in AWS Identity and Access Management (IM1) are used to:
+
+- A. Log in to the AWS Management Console.
+- B. Make programmatic calls to AWS from AWS APIs.
+- C. Log in to Amazon EC2 instances.
+- D. Authenticate to AWS CodeCommit repositories.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: B
+
+</details>
+
+Q.28 Which of the following is a correct relationship between regions, Availability Zones, and edge locations?
+
+- A. Data centers contain regions.
+- B. Regions contain Availability Zones.
+- C. Availability Zones contain edge locations.
+- D. Edge locations contain regions.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct answer: B
+
+</details>
 
 
