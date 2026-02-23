@@ -365,4 +365,16 @@ Correct Answer: D, E
 
 </details>
 
+Q.32 A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area.
+According to best practices, to meet these requirements, the EC2 instances must be placed in at least two:
 
+- A. AWS Regions
+- B. Availability Zones
+- C. subnets
+- D. placement groups
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: A
+
+</details>
