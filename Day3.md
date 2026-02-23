@@ -195,3 +195,66 @@ Correct Answer: B
 
 </details>
 
+Q17. A company wants to store backup files for 7 years at lowest cost and does not need immediate access. Which storage class should be used?
+
+- A) Standard
+- B) Intelligent-Tiering
+- C) Glacier Deep Archive
+- D) One Zone
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q18. A company wants to store user profile pictures that are accessed frequently. Which storage class?
+
+- A) Glacier
+- B) Standard
+- C) Deep Archive
+- D) EBS
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q19. A developer accidentally deletes an important file from S3. How can this be prevented in future?
+
+- A) Enable Versioning
+- B) Enable Auto Scaling
+- C) Use Elastic IP
+- D) Use NLB
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: A
+
+</details>
+
+Q20. A company wants to make course videos publicly downloadable but keep other files private. What should they use?
+
+- A) Public bucket
+- B) Bucket policy allowing s3:GetObject for specific folders
+- C) Security Group
+- D) IAM role
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q21. Which AWS service automatically scales storage capacity as data grows?
+
+- A) EC2
+- B) RDS
+- C) S3
+- D) EBS
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
