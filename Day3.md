@@ -1,1 +1,197 @@
+Q1. What is Amazon S3 primarily used for?
+
+- A) Running virtual servers
+- B) Object storage
+- C) DNS management
+- D) Monitoring
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q2. In S3, what is a bucket?
+
+- A) A virtual machine
+- B) A container for storing objects
+- C) A database
+- D) A load balancer
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q3. What is an object in S3?
+
+- A) A folder
+- B) A user
+- C) A file stored in a bucket
+- D) A server
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q4. By default, S3 objects are:
+
+- A) Public
+- B) Private
+- C) Encrypted
+- D) Shared
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q5. Which S3 storage class is best for frequently accessed data?
+
+- A) Glacier
+- B) Deep Archive
+- C) Standard
+- D) One Zone
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q6. Which storage class is cheapest for long-term archival data?
+
+- A) Standard
+- B) Intelligent-Tiering
+- C) Glacier Deep Archive
+- D) One Zone
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q7. A company wants to automatically move objects between storage tiers based on usage. Which option is best?
+
+- A) S3 Standard
+- B) S3 Intelligent-Tiering
+- C) S3 Glacier
+- D) EBS
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q8. What is S3 durability?
+
+- A) 99%
+- B) 99.9%
+- C) 99.999%
+- D) 99.999999999%
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: D
+
+</details>
+
+Q9. S3 stores data across:
+
+- A) Single data center
+- B) Multiple Availability Zones
+- C) Single region only
+- D) Single EC2 instance
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: D
+
+</details>
+
+Q10. Which policy type can be attached directly to an S3 bucket?
+
+- A) IAM Role
+- B) Bucket Policy
+- C) Security Group
+- D) Route Table
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q11. What does "Principal": "*" mean in an S3 bucket policy?
+
+- A) Only root user
+- B) All IAM users
+- C) Public access
+- D) Admin only
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q12. Which action allows users to download objects from S3?
+
+- A) s3:PutObject
+- B) s3:DeleteObject
+- C) s3:GetObject
+- D) s3:ListBucket
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q13. What does S3 Versioning allow?
+
+- A) Encryption
+- B) Multiple copies of objects
+- C) Automatic scaling
+- D) Load balancing
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q14. If a file is deleted in a versioned bucket:
+
+- A) It is permanently deleted
+- B) Previous versions can be restored
+- C) Entire bucket deletes
+- D) Data moves to Glacier
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q15. S3 can be used to host:
+
+- A) Backend APIs
+- B) Static websites
+- C) Databases
+- D) Containers
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q16. For static website hosting in S3, you must:
+
+- A) Enable versioning
+- B) Enable static website hosting
+- C) Attach Auto Scaling
+- D) Create EC2
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
 
