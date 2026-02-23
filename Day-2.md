@@ -191,6 +191,63 @@ Correct Answer: B
 </details>
 
 
+Q.19 A company is using EC2 Instances to run their e-commerce site on the AWS platform. If the site becomes unavailable, the company will lose a significant amount of money for each minute the site is unavailable. Which design principle should the company use to minimize the risk of an outage?
+
+- A. Least Privilege.
+- B. Pilot Light.
+- C. Fault Tolerance.
+- D. Multi-threading.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q.20 You decide to buy a reserved instance for a term of one year. Which option provides the largest total discount?
+
+- A. All up-front reservation.
+- B. All reserved instance payment options provide the same discount level.
+- C. Partial up-front reservation.
+- D. No up-front reservation.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: A
+
+</details>
+
+Q.21 An AWS customer has used one Amazon Linux instance for 2 hours, 5 minutes and 9 seconds, and one CentOS instance for 4 hours, 23 minutes and 7 seconds. How much time will the customer be billed for?
+
+- A. 3 hours for the Linux instance and 5 hours for the CentOS instance.
+- B. 2 hours, 5 minutes and 9 seconds for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance.
+- C. 2 hours, 5 minutes and 9 seconds for the Linux instance and 5 hours for the CentOS instance.
+- D. 3 hours for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+Explanation:
+
+Pricing is per instance-hour consumed for each instance, from the time an instance is launched until it is terminated or stopped.
+Each partial instance-hour consumed will be billed per-second for Linux, Windows, Windows with SQL Enterprise, Windows with SQL Standard, and Windows with SQL Web Instances, and as a full hour for all other instance types.
+
+</details>
+
+Q.22 A company has a web application that is hosted on a single EC2 instance and is approaching 100 percent CPU Utilization during peak loads. Rather than scaling the server vertically, the company has decided to deploy three Amazon EC2 instances in parallel and to distribute traffic across the three servers. What AWS Service should the company use to distribute the traffic evenly?
+
+A. AWS Global Accelerator.
+B. AWS Application Load Balancer (ALB).
+C. Amazon CloudFront.
+D. Transit VPC.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+
 
 
 
