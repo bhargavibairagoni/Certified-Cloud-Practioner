@@ -258,3 +258,17 @@ Correct Answer: C
 
 </details>
 
+Q.22 An application designed to span multiple Availability Zones is described as:
+
+- A. being highly available
+- B. having global reach
+- C. using an economy of scale
+- D. having elasticity
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: A
+
+</details>
+
+Q.23 
