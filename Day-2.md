@@ -236,10 +236,10 @@ Each partial instance-hour consumed will be billed per-second for Linux, Windows
 
 Q.22 A company has a web application that is hosted on a single EC2 instance and is approaching 100 percent CPU Utilization during peak loads. Rather than scaling the server vertically, the company has decided to deploy three Amazon EC2 instances in parallel and to distribute traffic across the three servers. What AWS Service should the company use to distribute the traffic evenly?
 
-A. AWS Global Accelerator.
-B. AWS Application Load Balancer (ALB).
-C. Amazon CloudFront.
-D. Transit VPC.
+- A. AWS Global Accelerator.
+- B. AWS Application Load Balancer (ALB).
+- C. Amazon CloudFront.
+- D. Transit VPC.
 
 <details> <summary><strong>▶ Show Answer</strong></summary>
 
@@ -247,7 +247,122 @@ Correct Answer: B
 
 </details>
 
+Q.23 A company is seeking to better secure its AWS account from unauthorized access. Which of the below options can the customer use to achieve this goal?
 
+- A. Restrict any API call made through SDKs or CLI.
+- B. Create one IAM account for each department in the company (Development, QA, Production), and share it across all staff in that department.
+- C. Require Multi-Factor Authentication (MFA) for all IAM User access.
+- D. Set up two login passwords.
 
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q.24 What are the advantages of using Auto Scaling Groups for EC2 instances?
+
+- A. Auto Scaling Groups caches the most recent responses at global edge locations to reduce latency and improve performance.
+- B. Auto Scaling Groups scales EC2 instances in multiple Availability Zones to increase application availability and fault tolerance.
+- C. Auto Scaling Groups scales EC2 instances across multiple regions to reduce latency for global users.
+- D. Auto Scaling Groups distributes application traffic across multiple Availability Zones to enhance performance.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q.25 Which of the following is a type of MFA device that customers can use to protect their AWS resources?
+
+- A. AWS CloudHSM.
+- B. U2F Security Key.
+- C. AWS Access Keys.
+- D. AWS Key Pair.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B
+
+</details>
+
+Q.26 Which of the following is NOT a factor when estimating the costs of Amazon EC2? (Choose TWO)
+
+- A. The amount of time the instances will be running.
+- B. Number of security groups.
+- C. Allocated Elastic IP Addresses.
+- D. Number of Hosted Zones.
+- E. Number of instances.
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: B, D
+
+</details>
+
+Q.27 Which of the below options is a best practice for making your application on AWS highly available?
+
+A. Deploy the application to at least two Availability Zones.
+B. Use Elastic Load Balancing (ELB) across multiple AWS Regions.
+C. Deploy the application code on at least two servers in the same Availability Zone.
+D. Rewrite the application code to handle all incoming requests.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: A
+
+</details>
+
+Q.28 A company is migrating a web application to AWS. The application’s compute capacity is continually utilized throughout the year. Which of the below options offers the company the most cost-effective solution?
+
+A. On-demand Instances.
+B. Dedicated Hosts.
+C. Spot Instances.
+D. Reserved Instances.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: D
+
+</details>
+
+Q.29 When granting permissions to applications running on Amazon EC2 instances, which of the following is considered best practice?
+
+A. Generate new IAM access keys every time you delegate permissions.
+B. Store the required AWS credentials directly within the application code.
+C. Use temporary security credentials (IAM roles) instead of long-term access keys.
+D. Do nothing; Applications that run on Amazon EC2 instances do not need permission to interact with other AWS services or resources.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: C
+
+</details>
+
+Q.30 According to best practices, which of the below options is best suited for processing a large number of binary files?
+
+A. Vertically scaling EC2 instances.
+B. Running RDS instances in parallel.
+C. Vertically scaling RDS instances.
+D. Running EC2 instances in parallel.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: D
+
+</details>
+
+Q.31 What should you do if you see resources, which you don’t remember creating, in the AWS Management Console? (Choose TWO)
+
+A. Stop all running services and open an investigation.
+B. Give your root account password to AWS Support so that they can assist in troubleshooting and securing the account.
+C. Check the AWS CloudTrail logs and delete all IAM users that have access to your resources.
+D. Open an investigation and delete any potentially compromised IAM users.
+E. Change your AWS root account password and the passwords of any IAM users.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+
+Correct Answer: D, E
+
+</details>
 
 
