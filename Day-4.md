@@ -104,7 +104,96 @@ Q9. What is the purpose of a NAT Gateway?
 Correct Answer: B
 </details>
 
+Q10. Can resources in a private subnet receive inbound internet traffic directly?
 
+- A) Yes
+- B) No
+- C) Only with NAT Gateway
+- D) Only with Security Group
 
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
 
+Q11. Security Groups are:
 
+- A) Stateless
+- B) Stateful
+- C) Region-level
+- D) Used for billing
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q12. Network ACLs are:
+
+- A) Stateful
+- B) Stateless
+- C) Instance-level
+- D) Used for IAM
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q13. A company wants:
+Web servers accessible from internet
+Database not accessible from internet
+What should they use?
+
+- A) All in public subnet
+- B) Web in public subnet, DB in private subnet
+- C) All in private subnet
+- D) No VPC
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q14. Which combination enables high availability across Availability Zones?
+
+- A) Single subnet
+- B) Multiple subnets in different AZs
+- C) One EC2 instance
+- D) Single Route Table
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q15. What happens if a VPC has no Internet Gateway attached?
+
+- A) Instances can access internet
+- B) Instances cannot access internet
+- C) S3 stops working
+- D) Route tables fail
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q16. A company wants to restrict traffic at subnet level. Which should they use?
+
+- A) Security Group
+- B) Network ACL
+- C) IAM Role
+- D) Elastic IP
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q17. Which of the following is required for a public subnet?
+
+- A) NAT Gateway
+- B) Internet Gateway
+- C) EBS Volume
+- D) IAM Role
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q18. Which VPC component acts as a firewall for EC2 instances?
+
+- A) Route Table
+- B) NACL
+- C) Security Group
+- D) Internet Gateway
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
