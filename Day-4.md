@@ -197,3 +197,71 @@ Q18. Which VPC component acts as a firewall for EC2 instances?
 <details> <summary><strong>▶ Show Answer</strong></summary>
 Correct Answer: B
 </details>
+
+Q.19 You have been tasked with auditing the security of your VPC. As part of this process, you need to start by analyzing what inbound and outbound traffic is allowed on your EC2 instances. What two parts of the VPC do you need to check to accomplish this task?
+
+- A. Network ACLs and Traffic Manager.
+- B. Network ACLs and Subnets.
+- C. Security Groups and Internet Gateways.
+- D. Security Groups and Network ACLs.
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: D
+</details>
+
+Q.20 Which statement is true in relation to security in AWS?
+
+- A. AWS manages everything related to EC2 operating systems.
+- B. AWS customers are responsible for patching any database software running on Amazon EC2.
+- C. Server side encryption is the responsibility of AWS.
+- D. AWS is responsible for the security of your application.
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q.21 Amazon EC2 instances are conceptually very similar to traditional servers. However, using Amazon EC2 server instances in the same manner as traditional hardware server instances is only a starting point. What are the main benefits of using the AWS EC2 instances instead of traditional servers? (Choose TWO)
+
+- A. Improves Fault-Tolerance.
+- B. Provides your business with a seamless remote accessibility.
+- C. Prevents unauthorized users from getting into your network.
+- D. Provides automatic data backups.
+- E. Can be scaled manually in a shorter period of time.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: A,E
+</details>
+
+Q.22 Which statement is true regarding AWS pricing? (Choose TWO)
+
+- A. With the AWS pay-as-you-go pricing model, you don't have to pay any upfront fee.
+- B. You have no responsibility for third-party software license costs.
+- C. You only pay for the individual services that you need with no long-term contracts.
+- D. For some services, you have to pay a startup fee in order to get the service running.
+- E. There are no reservations on AWS, you only pay for what you use.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: A,C
+</details>
+
+Q.23 Which of the following actions may reduce Amazon EBS costs? (Choose TWO)
+
+- A. Deleting unused buckets.
+- B. Using reservations.
+- C. Deleting unnecessary snapshots.
+- D. Changing the type of the volume.
+- E. Distributing requests to multiple volumes.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C, D
+</details>
+
+Q.24 What should you consider when storing data in Amazon Glacier?
+
+- A. Amazon Glacier only accepts data in a compressed format.
+- B. Glacier can only be used to store frequently accessed data and data archives.
+- C. Amazon Glacier does not provide immediate retrieval of data.
+- D. Attach Glacier to an EC2 Instance to be able to store data.
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
+</details>
+
