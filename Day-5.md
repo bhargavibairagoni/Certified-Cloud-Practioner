@@ -93,10 +93,10 @@ Correct Answer: C
 
 Q9. DynamoDB is a:
 
-A) Relational database
-B) Graph database
-C) NoSQL database
-D) File storage
+- A) Relational database
+- B) Graph database
+- C) NoSQL database
+- D) File storage
 
 <details> <summary><strong>▶ Show Answer</strong></summary>
 Correct Answer: C
@@ -104,11 +104,139 @@ Correct Answer: C
 
 Q.10 Which workload is best suited for DynamoDB?
 
-A) Complex joins
-B) High-scale serverless apps
-C) Financial accounting
-D) ERP systems
+- A) Complex joins
+- B) High-scale serverless apps
+- C) Financial accounting
+- D) ERP systems
 
 <details> <summary><strong>▶ Show Answer</strong></summary>
 Correct Answer: B
+</details>
+
+Q11. DynamoDB is:
+
+A) Serverless
+B) Requires manual patching
+C) Runs on EC2
+D) Multi-master relational
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: A
+</details>
+
+Q.12 Amazon DocumentDB is compatible with:
+
+A) MySQL
+B) MongoDB
+C) PostgreSQL
+D) Oracle
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q.13 DocumentDB stores data as:
+
+A) Tables
+B) Graph nodes
+C) JSON documents
+D) Blocks
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
+</details>
+
+Q.14 What is the primary purpose of ElastiCache?
+
+- A) Long-term storage
+- B) Backup service
+- C) Caching frequently accessed data
+- D) Data warehousing
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
+</details>
+
+Q15. ElastiCache improves performance by:
+
+- A) Storing data in RAM
+ - B) Compressing database
+- C) Increasing CPU
+- D) Increasing storage
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: A
+</details>
+
+Q.16 Which engines does ElastiCache support?
+
+- A) MySQL and PostgreSQL
+- B) Redis and Memcached
+- C) MongoDB and Cassandra
+- D) Aurora and Oracle
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q.17 Amazon Neptune is used for:
+
+- A) E-commerce transactions
+- B) Graph-based relationship data
+- C) Key-value storage
+- D) Caching
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q.18 Which use case fits Neptune best?
+
+A) Banking ledger
+B) Social network relationships
+C) Product catalog
+D) Session storage
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q.19 A company needs a fully managed SQL database with automatic failover. What should they use?
+
+- A) DynamoDB
+- B) Neptune
+- C) RDS Multi-AZ
+- D) ElastiCache
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
+</details>
+
+Q20. A gaming app requires a highly scalable NoSQL database with millisecond latency. What should they use?
+
+- A) RDS
+- B) DynamoDB
+- C) Aurora
+- D) Neptune
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
+
+Q21. A company wants to speed up database read performance for frequently accessed data. What should they use?
+
+- A) Standby DB
+- B) Read Replica
+- C) ElastiCache
+- D) Neptune
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
+</details>
+
+Q22.Which service is best for fraud detection using relationship data?
+
+- A) RDS
+- B) DynamoDB
+- C) Neptune
+- D) ElastiCache
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
 </details>
