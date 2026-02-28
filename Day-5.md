@@ -91,5 +91,24 @@ Q8. How many read replicas does Aurora support?
 Correct Answer: C
 </details>
 
+Q9. DynamoDB is a:
 
+A) Relational database
+B) Graph database
+C) NoSQL database
+D) File storage
 
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: C
+</details>
+
+Q.10 Which workload is best suited for DynamoDB?
+
+A) Complex joins
+B) High-scale serverless apps
+C) Financial accounting
+D) ERP systems
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: B
+</details>
