@@ -213,3 +213,12 @@ redundant power, networking & connectivity.
 - No E-mail or other message abuse.
 
 </details>
+
+
+<details> <summary><strong>▶ DAY-2 </strong></summary>
+
+
+
+
+
+</details>
