@@ -234,19 +234,18 @@ Q21. A company has a web application that is hosted on a single EC2 instance and
 - C. Amazon CloudFront.
 - D. Transit VPC.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
+<details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
-    </details>
+</details>
 
 Q22.  Which AWS Service offers volume discounts based on usage?
 - A. Amazon VPC.
 - B. Amazon S3.
 - C. Amazon Lightsail.
 - D. AWS Cost Explorer.
-
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
-    </details>
+</details>
 
 Q23. Which of the following factors should be considered when determining the region in which AWS Resources will be deployed? (Choose TWO)
 - A. The AWS Region’s security level.
