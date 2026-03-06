@@ -1,7 +1,7 @@
 # Certified-Cloud-Practioner
 
 
-<details> <summary><strong>▶ DAY-1 r</strong></summary>
+<details> <summary><strong>▶ DAY-1 </strong></summary>
 
 AWS INTRO
 WHAT IS SERVER COMPOSED OF ?
