@@ -226,3 +226,24 @@ Q20. A company wants a consistent network experience between their on-premises d
 <details> <summary><strong>▶ Show Answer</strong></summary>
 Correct Answer: A
 </details
+
+Q21. A company has a web application that is hosted on a single EC2 instance and is approaching 100 percent CPU Utilization during peak loads. Rather than scaling the server vertically, the company has decided to deploy three Amazon EC2 instances in parallel and to distribute traffic across the three servers. What AWS Service should the company use to distribute the traffic evenly?
+   
+- A. AWS Global Accelerator.
+- B. AWS Application Load Balancer (ALB).
+- C. Amazon CloudFront.
+- D. Transit VPC.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+Q22.  Which AWS Service offers volume discounts based on usage?
+    - A. Amazon VPC.
+    - B. Amazon S3.
+    - C. Amazon Lightsail.
+    - D. AWS Cost Explorer.
+
+    <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+    
