@@ -278,3 +278,55 @@ Q25.  Which of the following are examples of the customer’s responsibility to 
 <details markdown=1><summary markdown='span'>Answer</summary>
     Correct answer: A, E
 </details>
+
+Q26. Which of the following is NOT a factor when estimating the costs of Amazon EC2? (Choose TWO)
+- A. The amount of time the instances will be running.
+- B. Number of security groups.
+- C. Allocated Elastic IP Addresses.
+- D. Number of Hosted Zones.
+- E. Number of instances.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+  Correct answer: B, D
+</details>
+
+Q27. Which AWS Service helps enterprises extend their on-premises storage to AWS in a cost-effective manner?
+- A. AWS Data Pipeline.
+- B. AWS Storage Gateway.
+- C. Amazon Aurora.
+- D. Amazon EFS.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+  Correct answer: B
+</details>
+
+Q28. A company is building an online cloud storage platform. They need a storage service that can scale capacity automatically, while minimizing cost. Which AWS storage service should the company use to meet these requirements?
+- A. Amazon Simple Storage Service.
+- B. Amazon Elastic Block Store.
+- C. Amazon Elastic Container Service.
+- D. AWS Storage Gateway.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+  Correct answer: A
+</details>
+
+Q29. An external auditor is requesting a log of all accesses to the AWS resources in the company’s account. Which of the following services will provide the auditor with the requested information?
+- A. AWS CloudTrail.
+- B. Amazon CloudFront.
+- C. AWS CloudFormation.
+- D. Amazon CloudWatch.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+  Correct answer: A
+</details>
+
+Q30. Which of the following AWS offerings are serverless services? (Choose TWO)
+- A. Amazon EC2.
+- B. AWS Lambda.
+- - C. Amazon DynamoDB.
+- D. Amazon EMR.
+- E. Amazon RDS.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+  Correct answer: B, C
+</details>
