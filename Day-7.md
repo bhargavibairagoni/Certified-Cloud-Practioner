@@ -237,13 +237,45 @@ Q21. A company has a web application that is hosted on a single EC2 instance and
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
-Q22.  Which AWS Service offers volume discounts based on usage?
-    - A. Amazon VPC.
-    - B. Amazon S3.
-    - C. Amazon Lightsail.
-    - D. AWS Cost Explorer.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
+Q22.  Which AWS Service offers volume discounts based on usage?
+- A. Amazon VPC.
+- B. Amazon S3.
+- C. Amazon Lightsail.
+- D. AWS Cost Explorer.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
-    
+
+Q23. Which of the following factors should be considered when determining the region in which AWS Resources will be deployed? (Choose TWO)
+- A. The AWS Region’s security level.
+- B. Data sovereignty.
+- C. Cost.
+- D. The planned number of VPCs.
+- E. Geographic proximity to the company's location.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B, C
+</details>   
+
+Q24. You are running a financial services web application on AWS. The application uses a MySQL database to store the data. Which of the following AWS services would improve the performance of your application by allowing you to retrieve information from fast in-memory caches?
+- A. Amazon EFS.
+- B. Amazon Neptune.
+- C. Amazon ElastiCache.
+- D. DAX.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+  Correct answer: C
+</details>
+
+Q25.  Which of the following are examples of the customer’s responsibility to implement “security IN the cloud”? (Choose TWO)
+- A. Building a schema for an application.
+- B. Replacing physical hardware.
+- C. Creating a new hypervisor.
+- D. Patch management of the underlying infrastructure.
+- E. File system encryption.
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+    Correct answer: A, E
+</details>
