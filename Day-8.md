@@ -198,8 +198,16 @@ Q18. Which AWS service is primarily used for DNS management?
 Correct Answer: B
 </details>
 
+Q19. A company wants users worldwide to access a website with minimal latency while ensuring DNS resolution. Which combination of services should be used?
 
+A. Route 53 + CloudFront
+B. EC2 + Lambda
+C. S3 + DynamoDB
+D. ECS + ECR
 
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct Answer: A
+</details>
 
 
 
