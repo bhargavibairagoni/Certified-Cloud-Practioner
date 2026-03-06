@@ -3,22 +3,22 @@
 
 <details> <summary><strong>▶ DAY-1 </strong></summary>
 
-AWS INTRO
-WHAT IS SERVER COMPOSED OF ?
+**AWS INTRO**
+**WHAT IS SERVER COMPOSED OF ?**
 
 ● Compute: cpu + memory : ram
 ● Storage : data
 ● Database : store data in a structured way
 ● Network : routers, switch, DNS server
 
-IT TERMINOLOGY
+**IT TERMINOLOGY**
 
 ● Network: cables, routers & servers connected with each other.
 ● Routers: a networking device that forwards data packets between computer
 networks. They know where to send your packets on the internet.
 ● Switch: Takes a packet and it to the correct server/client on your network.
 
-PROBLEMS WITH TRADITIONAL IT APPROACH
+**PROBLEMS WITH TRADITIONAL IT APPROACH**
 
 ● Pay for the rent for the data center.
 ● Pay for power supply, coding, maintenance.
@@ -28,7 +28,7 @@ PROBLEMS WITH TRADITIONAL IT APPROACH
 ● How to deal with disasters ? (earthquake, power, shutdown, fire…. )
 ● Can we externalize all this ?
 
-WHAT IS CLOUD COMPUTING
+**WHAT IS CLOUD COMPUTING**
 
 ● Cloud computing is the on-demand delivery of compute power, database,
 storage, applications & other IT resources.
@@ -53,24 +53,24 @@ EX:
 ● Built on aws
 ● Video on demand
 
-THE DEPLOYMENT MODELS OF THE CLOUD
+**THE DEPLOYMENT MODELS OF THE CLOUD**
 
-1. PRIVATE CLOUD
+**1. PRIVATE CLOUD**
 ● Cloud services used by a single organization, not exposed to the public.
 ● complete control
 ● Security for sensitive applications.
 ● Meet specific business needs.
 
-2.PUBLIC CLOUD
+**2.PUBLIC CLOUD**
 ● Cloud services owned & operated by a third-party cloud service provider
 delivered over the internet.
 
-3.HYBRID CLOUD
+**3.HYBRID CLOUD**
 ● Keep some servers on premises & extend some capabilities to the cloud.
 ● Control over sensitive assets in your private infrastructure.
 ● Flexibility and cost-effectiveness of the public cloud.
 
-THE FIVE CHARACTERISTICS OF CLOUD COMPUTING
+**THE FIVE CHARACTERISTICS OF CLOUD COMPUTING**
 
 ● On-demand self service: Users can provision & use them without human
 interaction from the service providers.
@@ -86,7 +86,7 @@ security & privacy.
 ● Measured services: Usage is measured, users pay correctly for what they
 have used.
 
-SIX ADVANTAGES OF CLOUD COMPUTING
+**SIX ADVANTAGES OF CLOUD COMPUTING**
 
 ● Trade capital expense (CAPEX) for operational expense (OPEX).
 1. Pay on demand: don’t own hardware.
@@ -99,7 +99,7 @@ SIX ADVANTAGES OF CLOUD COMPUTING
 ● Stop spending money running & maintaining data centres.
 ● Go global in minutes: leverages the aws global infrastructure.
 
-PROBLEMS SOLVED BY THE CLOUD
+**PROBLEMS SOLVED BY THE CLOUD**
 
 ● Flexibility: change resource types when needed.
 ● Cost-effectiveness: pay as you go, for what you use.
@@ -109,26 +109,26 @@ additional nodes.
 ● High-availability & fault tolerance: build across data centres.
 ● Agility: rapidly develop, test & launch software applications.
 
-TYPES OF CLOUD COMPUTING
+**TYPES OF CLOUD COMPUTING**
 
-● Infrastructure as a service(IAAS):
+**Infrastructure as a service(IAAS):**
 1. Provide building blocks for cloud IT.
 2. Provides networking, computers, data storage space.
 3. Highest level of flexibility.
 4. Easy parallel will traditional on-premises IT.
    
-● Platform as a service(PAAS):
+**Platform as a service(PAAS):**
 1. Removes the need for your organisation to manage the underlying
 infrastructure.
 2. Focus on the deployment & management of your applications.
    
-● Software as a service(SAAS):
+**Software as a service(SAAS):**
 1. Completed product that is run & managed by the service provider.
 2. Availability zones
 3. Regions
 4. Edge locations
 
-CLOUD
+**CLOUD**
 
 ● We can store not only in physical device, we can store in online also.
 ● Cloud introduction in 1976.
@@ -140,7 +140,7 @@ CLOUD
 ● Cloud service customer
 RIR ⇒ Remote server - Internet - Rent
 
-WHAT IS AWS
+**WHAT IS AWS**
 
 ● It is a platform that offers flexible, reliable, scalable, easy to use and cost
 effective cloud computing solutions.
@@ -152,12 +152,12 @@ Orcale etc.
 ● AWS was in top range because as cheaper than other providers.
 ● HOW ? Pay as you go method
 
-DISADVANTAGES OF PREMISES
+**DISADVANTAGES OF PREMISES**
 
 ● High maintenance, man power, huge cost, investment, suppose business loss
 means we can’t sell the server. AWS can easily return server
 .
-ADVANTAGES OF AWS
+**ADVANTAGES OF AWS**
 
 ● AWS itself under server maintenance
 ● Reduce upfront cost.
@@ -165,20 +165,20 @@ ADVANTAGES OF AWS
 ● Global reach
 ● High availability and Security
 
-AWS GLOBAL INFRASTRUCTURE
+**AWS GLOBAL INFRASTRUCTURE**
 ● AWS regions
 ● AWS availability zones
 ● AWS data centers
 ● AWS edge locations/points of presence
 ● https://infrastructure.aws/
 
-AWS REGIONS
+**AWS REGIONS**
 ● AWS has regions all around the world.
 ● Names can be us-east-1, eu-west-3
 ● A region is a cluster of data centres.
 ● most AWS services are region-scoped
 
-HOW TO CHOOSE AWS REGIONS
+**HOW TO CHOOSE AWS REGIONS**
 ● Compliance with data governance & legal requirements: data never leaves a
 region without your explicit permission.
 ● Proximity to customers: reduced latency
@@ -187,7 +187,7 @@ available in every region.
 ● Pricing: pricing varies region to region and is transparent in the service pricing
 page.
 
-AWS AVAILABILITY ZONES
+**AWS AVAILABILITY ZONES**
 ● Each region has many availability zones(usually 3, min is 3, max is 6).
 ● EX:
 1. ap-south east-2a
@@ -198,13 +198,13 @@ redundant power, networking & connectivity.
 ● They are separate from each other, so that they are isolated from disasters.
 ● They are connected with high bandwidth ultra-low latency networking.
 
-AWS POINTS OF PRESENCE (EDGE LOCATIONS)
+**AWS POINTS OF PRESENCE (EDGE LOCATIONS)**
 
 ● Amazon has 700+ points of presence in 90+ cities across 40+ countries.
 ● Content is delivered to user with low latency.
 ● https://aws.amazon.com/cloudfront/features/
 
-AWS ACCEPTABLE POLICY
+**AWS ACCEPTABLE POLICY**
 
 ● https://aws.amazon.com/aup/
 ● No illegal, harmful or offensive use or content.
