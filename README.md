@@ -349,7 +349,7 @@ editing (Custom)
 - **Note: If you lose your device, your AWS account will be locked permanently.**
 
 **IAM Access Keys, CLI & SDK:**
-**How can users access AWS?**
+- **How can users access AWS?**
 - To access AWS, We have 3 ways
 - AWS Management Console (Protected by Password +
 MFA)
