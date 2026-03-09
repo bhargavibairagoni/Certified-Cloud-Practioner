@@ -346,8 +346,7 @@ editing (Custom)
 - Click on Assign MFA
 - Try logout and Login
 
-**Note: If you lose your device, your AWS account will be locked
-permanently.**
+- **Note: If you lose your device, your AWS account will be locked permanently.**
 
 **IAM Access Keys, CLI & SDK:**
 **How can users access AWS?**
