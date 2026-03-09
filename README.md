@@ -243,7 +243,7 @@ of the users.
 Principle” which means you don’t give more permissions
 than the user needs
 
-**Hands On**
+- **Hands On**
 - Go to AWS Management Console
 - Search for service “IAM” in search bar
 - Click on “Users” and create a user for yourself
@@ -293,7 +293,7 @@ in effect (optional)
 
 }
 
-**Hands On**
+- **Hands On**
 
 - Go to “Policies” in IAM Dashboard
 - Check a JSON file of any policy
@@ -348,7 +348,7 @@ editing (Custom)
 
 - **Note: If you lose your device, your AWS account will be locked permanently.**
 
-**IAM Access Keys, CLI & SDK:**
+- **IAM Access Keys, CLI & SDK:**
 - **How can users access AWS?**
 - To access AWS, We have 3 ways
 - AWS Management Console (Protected by Password +
@@ -375,7 +375,7 @@ programmatically
 - It supports JS, Py, PHP, .Net, Ruby, Java etc
 - AWS CLI is built on AWS SDK for python
 - **Another Way is AWS CloudShell within AWS Console
-—  -- Hands On —--**
+-- Hands On —--**
 
 - **IAM Roles for Services:**
 - Some AWS services will need to perform actions on your
