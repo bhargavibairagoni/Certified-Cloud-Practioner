@@ -214,11 +214,231 @@ redundant power, networking & connectivity.
 
 </details>
 
+*********************************************************************************************************************************************************************************
+
 
 <details> <summary><strong>▶ DAY-2 </strong></summary>
+   
+**IAM - Identity and Access Management**
+   
+- IAM is a Global service
+- In IAM, we are going to create users and assign them to
+groups
+- We already using IAM without knowing in the name of Root
+account
+- The Root Account we created shouldn’t be used or Shared
+- Groups only contain Users
+- A user can belong to multiple groups.
 
+**IAM - Permissions**
+- To work on our account, We need to give permissions
+- Users or Groups can be assigned a JSON document called
+Policies
+- We are giving permissions to users to work on allowed
+resources
+- In AWS, We don’t allow everyone to do everything
+- Whatever the policies defined in the Statement of JSON file
+(Refer below JSON file), these policies define the permissions
+of the users.
+- In AWS, You apply a principle called “least Privilege
+Principle” which means you don’t give more permissions
+than the user needs
 
+**Hands On**
+- Go to AWS Management Console
+- Search for service “IAM” in search bar
+- Click on “Users” and create a user for yourself
+- Create a group called “Admin” and add
+“Administrator Access” and assign the user
+- Log in with your IAM account by editing your
+custom URL (On right side)
 
+**IAM Policies**
+- Policies can be defined in JSON file
 
+**IAM Policy Structure**
+
+Policy Structure consists of
+- Version: Policy Language Version
+- ID: An Identifier for the Policy (Optional)
+- Statement: One (or) More Individual Statements
+- Statement Consists of:
+- Sid: Statement ID
+- Effect: Whether the statement allows or
+denies
+- Principal: Which user/role/account can comes
+under this policy
+- Action: List of calls they can take
+- Resource: List of Resources to which the
+actions applied to
+- Condition: Conditions for when this policy is
+in effect (optional)
+
+{
+   "Version": "2023-09-21",
+   "Id": "S3-Account-Permissions",
+   "Statement": [
+      {
+         "Sid": "1",
+         "Effect": "Allow",
+         "Principal": {
+            "AWS": ["arn:aws:iam::123456789012:root"]
+         },
+         "Action": [
+         "s3:GetObject",
+          "s3:PutObject"
+           ],
+            "Resource": ["arn:aws:s3:::mybucket/*"]
+         }
+      ]
+
+}
+
+**Hands On**
+
+- Go to “Policies” in IAM Dashboard
+- Check a JSON file of any policy
+- Can create a policy if needed
+  
+**Security**
+- After creating Groups & Users
+- It’s time to protect the users and groups from being
+compromised
+We have 2 Defense Mechanisms:
+
+**1. Password Policy**
+- Use Stronger Passwords
+- In AWS, We can setup a password policy with different
+options
+- Min. Password length
+- Requires specific character types
+- Allow all IAM users to change their own passwords
+- Requires users to change their password after
+sometime (Password Expiration)
+- Passwords Re Use
+  
+**2. MFA - Multi Factor Authentication**
+- In AWS, It is must & very recommended to use it
+- Users have access to your account and can possibly
+change Configurations (or) delete resources in your
+AWS account
+- Protect the users to avoid all these
+- Use MFA = Password + Security Device you own
+- If someone having password + MFA, even if their
+password has been stolen, the account is not
+compromised.
+
+**MFA Device Options in AWS**
+- Virtual MFA Device
+- Google Authenticator (Phone
+- Authy (Multi Device)
+- U2F (Universal 2nd Factor) Security Key by Yubiko (3rd
+party)
+- Hard key Fob MFA Device by Gemalto (3rd Party)
+- AWS GovCloud (US) - Surepass ID (3rd Party)
+  
+**Hands On**
+- Go to Account Settings and explore Password Policy by
+editing (Custom)
+- Go to IAM Dashboard and enable MFA
+- Choose Authenticator App
+- Download Twilio Authy App in your phone
+- Scan the QR code and add account
+- Click on Assign MFA
+- Try logout and Login
+
+**Note: If you lose your device, your AWS account will be locked
+permanently.**
+
+**IAM Access Keys, CLI & SDK:**
+**How can users access AWS?**
+- To access AWS, We have 3 ways
+- AWS Management Console (Protected by Password +
+MFA)
+- AWS CLI (Protected by Access Keys)
+- AWS SDK (Software Development Kit) - To call API’s
+from AWS
+- Users can manage their own access keys
+- Access keys are secret, just like a password, Don’t share
+them
+
+**What is AWS CLI?**
+To access AWS services using commands in your command
+line shell
+- With CLI, we get direct access to public APIs of AWS Services
+- You can develop scripts to manage your resources
+- It is an alternative to AWS Management Console
+
+**What is AWS SDK?**
+- SDK stands for “Software Development Kit”
+- It enables you to access and manage AWS services
+programmatically
+- Need to integrate within our application
+- It supports JS, Py, PHP, .Net, Ruby, Java etc
+- AWS CLI is built on AWS SDK for python
+**Another Way is AWS CloudShell within AWS Console
+—-- Hands On —--**
+
+**IAM Roles for Services:**
+- Some AWS services will need to perform actions on your
+behalf
+- Like users, Services also needs some kind of permissions
+- To do that, We will assign permissions to AWS services with
+IAM Roles
+- They will not be used by people but services
+- Common roles are
+- EC2 Instance Roles
+- Lambda Function Roles
+- Roles for Cloud Formation
+**—-- Hands On —--
+IAM Security Tools:
+IAM Credentials Report (Account Level)**
+- A report that lists all your account’s users and the status of
+their various credentials
+**IAM Access Advisor (User Level)**
+- Access Advisor shows the service permissions granted to a
+user and when the services were last accused.
+- Using this, We can revise our policies
+
+**—-- Hands On —--**
+**IAM Best Practices & Guidelines**
+  
+- Don’t use the root account except for AWS account setup
+- One Physical user = One AWS User
+- Assign users to groups and assign permissions to groups
+- Create a strong password policy
+- Use and enforce the use of MFA
+- Create and use roles for giving permissions to AWS Services
+- Use access keys for programmatic access (CLI/SDK)
+- Audit permissions of your account using IAM Credentials
+
+**Report & IAM Access Advisor**
+- Never share IAM users & access keys
+
+**Shared Responsibility Model for IAM**
+**AWS**                                     
+1. Infrastructure (Global, Network, Security)
+2. Configuration & Vulnerability Analysis
+3. Compliance Validation
+
+**Customer**
+1. Users, Groups, Roles, Policies Management & Monitoring
+2. Enable MFA on all accounts
+3. Use IAM tools to apply appropriate permissions
+4. Analyse access patterns & Review permissions
+
+**IAM - Summary:
+Users:** Mapped to a physical user, has a password for AWS
+Console.
+**Groups:** Contains users only
+**Policies:** JSON document that outlines permissions for users (or)
+groups
+**Roles:** for EC2 instances (or) AWS Services
+**Security:** MFA + Password Policy
+**AWS CLI:** Manage your AWS services using Command - Line
+**AWS SDK:** Manage your AWS services using a Programmatic
+language
+**Access Keys:** Access AWS using CLI or SDK
+**Audit:** IAM Credential Report & IAM Access Advisor
 
 </details>
