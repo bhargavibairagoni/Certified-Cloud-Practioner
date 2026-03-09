@@ -214,7 +214,6 @@ redundant power, networking & connectivity.
 
 </details>
 
-*********************************************************************************************************************************************************************************
 
 
 <details> <summary><strong>▶ DAY-2 </strong></summary>
@@ -483,10 +482,10 @@ language
 **EC2 Instance Types**
 
 The naming convention of EC2:
-Example: m5.2xlarge
-m = Instance Class
-5 = generation of instance
-2xlarge = Size within the instance class
+- Example: m5.2xlarge
+- m = Instance Class
+- 5 = generation of instance
+- 2xlarge = Size within the instance class
 
 **Instance Types – general purpose**
 - Great for a diversity of work loads such as web servers or code repositories
