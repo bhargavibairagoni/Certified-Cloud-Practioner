@@ -448,7 +448,7 @@ language
 
 
 - **EC2 Basics**
-- **What is Amazon EC2?**
+**What is Amazon EC2?**
 - Ec2 is one of the most popular services in AWS/Cloud
 - EC2 → Elastic Compute Cloud → Infrastructure as a Service
 - What EC2 consists of
