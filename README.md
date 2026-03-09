@@ -480,21 +480,6 @@ language
 - Anything you can think of
 → EC2 User Data Script runs with the root user
 
-**EC2 Instance types: Example**
-Instance vCPU Mem (GiB) Storage Network
-performance
-EBS Bandwidth
-(Mbps)
-t2.micro 1 1 EBS Only Low to
-Moderate
-T2.xlarge 4 16 EBS Only Moderate
-C5d.4xlarge 16 32 1 x 400 NVMe
-SSD
-Upto 10 Gbps 4,750
-R5.16xlarge 64 512 EBS Only 20 Gbps 13,600
-M5.8xlarge 32 128 EBS Only 10 Gbps 6,800
-Choose the instance that fits best for your application
-
 **EC2 Instance Types**
 
 The naming convention of EC2:
