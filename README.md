@@ -449,35 +449,35 @@ language
 
 **EC2 Basics
 What is Amazon EC2?**
-• Ec2 is one of the most popular services in AWS/Cloud
-• EC2 → Elastic Compute Cloud → Infrastructure as a Service
-• What EC2 consists of
-• Renting Virtual Machines (EC2) → Instances
-• Storing Data on Virtual Drives (EBS)
-• Distributing Load across machines (ELB)
-• Scaling the services using an Auto-Scaling Group (ASG)
+- Ec2 is one of the most popular services in AWS/Cloud
+- EC2 → Elastic Compute Cloud → Infrastructure as a Service
+- What EC2 consists of
+- Renting Virtual Machines (EC2) → Instances
+- Storing Data on Virtual Drives (EBS)
+- Distributing Load across machines (ELB)
+- Scaling the services using an Auto-Scaling Group (ASG)
 → Knowing EC2 is Fundamental to understand how the cloud works
 
 **EC2 Sizing & Configuration Options**
-• Operating System (OS): Linux, Windows, & Mac OS
-• How much Compute Power & Cores (CPU)
-• How much Random-Access memory (RAM)
-• How much Storage Space:
-• Network Attached (EBS & EFS)
-• Hardware (EC2 Instance Store)
-• Network Card: Speed of the card, Public IP Address
-• Firewall Rules: Security Group
-• Bootstrap Script (Configure at First Launch): Ec2 User data
+- Operating System (OS): Linux, Windows, & Mac OS
+- How much Compute Power & Cores (CPU)
+- How much Random-Access memory (RAM)
+- How much Storage Space:
+- Network Attached (EBS & EFS)
+- Hardware (EC2 Instance Store)
+- Network Card: Speed of the card, Public IP Address
+- Firewall Rules: Security Group
+- Bootstrap Script (Configure at First Launch): Ec2 User data
 
 **EC2 User Data**
-• It is possible to bootstrap our instances using an EC2 User Data Script
-• Bootstrapping means launching commands when a Machine starts
-• That script is only run-once at the instance First start
-• EC2 user data is used to automate boot tasks such as:
-• Installing Updates
-• Installing Softwares
-• Download Common files from the internet
-• Anything you can think of
+- It is possible to bootstrap our instances using an EC2 User Data Script
+- Bootstrapping means launching commands when a Machine starts
+- That script is only run-once at the instance First start
+- EC2 user data is used to automate boot tasks such as:
+- Installing Updates
+- Installing Softwares
+- Download Common files from the internet
+- Anything you can think of
 → EC2 User Data Script runs with the root user
 
 **EC2 Instance types: Example**
@@ -504,42 +504,42 @@ m = Instance Class
 2xlarge = Size within the instance class
 
 **Instance Types – general purpose**
-• Great for a diversity of work loads such as web servers or code repositories
-• Balance between
-• Compute
-• Memory
-• Networking
-• We will use t2.micro which is General purpose
+- Great for a diversity of work loads such as web servers or code repositories
+- Balance between
+- Compute
+- Memory
+- Networking
+- We will use t2.micro which is General purpose
 
 **Instance Types – Compute optimised**
 
-• Great for compute intensive tasks that require high performance processors
-• Batch Processing workloads
-• Media Transcoding
-• High Performance web Servers
-• High Performance Computing
-• Scientific Modelling & machine Learning
-• Dedicated Gaming Servers
+- Great for compute intensive tasks that require high performance processors
+- Batch Processing workloads
+- Media Transcoding
+- High Performance web Servers
+- High Performance Computing
+- Scientific Modelling & machine Learning
+- Dedicated Gaming Servers
 
 **Instance Types – Memory optimised**
 
-• Fast performance for workloads that process large data sets in memory
-•Use cases:
-• High performance, Relational/non relational databases
-• Distributed web scale cache stores
-• In-memory databases optimized for BI (Business Intelligence)
-• Applications performing real-time processing of big unstructured data
+- Fast performance for workloads that process large data sets in memory
+- Use cases:
+- High performance, Relational/non relational databases
+- Distributed web scale cache stores
+- In-memory databases optimized for BI (Business Intelligence)
+- Applications performing real-time processing of big unstructured data
 
 **Instance Types – Storage optimised**
 
-• Great for storage-intensive tasks that require high, sequential read and write access to large data
+- Great for storage-intensive tasks that require high, sequential read and write access to large data
 sets on local storage
-• Use cases:
-• High Frequency online transaction processing (OLTP) systems
-• Relational & NoSQL databases
-• Cache for in-memory databases (for example, Redis)
-• Data Warehousing applications
-• Distributed file systems
+- Use cases:
+- High Frequency online transaction processing (OLTP) systems
+- Relational & NoSQL databases
+- Cache for in-memory databases (for example, Redis)
+- Data Warehousing applications
+- Distributed file systems
 
 
 
