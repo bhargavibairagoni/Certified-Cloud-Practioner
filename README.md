@@ -428,17 +428,17 @@ user and when the services were last accused.
 4. Analyse access patterns & Review permissions
 
 **IAM - Summary:
-1 Users:** Mapped to a physical user, has a password for AWS
+- Users:** Mapped to a physical user, has a password for AWS
 Console.
-**2. Groups:** Contains users only
-**3. Policies:** JSON document that outlines permissions for users (or)
+- **Groups:** Contains users only
+- **Policies:** JSON document that outlines permissions for users (or)
 groups
-**4. Roles:** for EC2 instances (or) AWS Services
-**5. Security:** MFA + Password Policy
-**6. AWS CLI:** Manage your AWS services using Command - Line
-**7. AWS SDK:** Manage your AWS services using a Programmatic
+- **Roles:** for EC2 instances (or) AWS Services
+- **Security:** MFA + Password Policy
+- **AWS CLI:** Manage your AWS services using Command - Line
+- **AWS SDK:** Manage your AWS services using a Programmatic
 language
-**8. Access Keys:** Access AWS using CLI or SDK
-**9. Audit:** IAM Credential Report & IAM Access Advisor
+- **Access Keys:** Access AWS using CLI or SDK
+- **Audit:** IAM Credential Report & IAM Access Advisor
 
 </details>
