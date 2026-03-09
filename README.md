@@ -399,8 +399,8 @@ their various credentials
 user and when the services were last accused.
 - Using this, We can revise our policies
 
-**—-- Hands On —--**
-**IAM Best Practices & Guidelines**
+- **—-- Hands On —--**
+- **IAM Best Practices & Guidelines**
   
 - Don’t use the root account except for AWS account setup
 - One Physical user = One AWS User
