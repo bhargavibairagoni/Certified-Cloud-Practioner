@@ -126,10 +126,21 @@ B. Stack deletion
 C. Manual resource modification
 D. CloudWatch alarms
  
-
 <details> <summary><strong>▶ Show Answer</strong></summary>
 Correct answer:A
 Explanation: Updating a stack allows resources to be modified safely.
+</details>
+
+Q12. Which format can be used to write CloudFormation templates?
+
+A. JSON or YAML
+B. Python only
+C. Java only
+D. Bash scripts
+
+<details> <summary><strong>▶ Show Answer</strong></summary>
+Correct answer:A
+Explanation: CloudFormation templates are written in JSON or YAML.
 </details>
 
 
